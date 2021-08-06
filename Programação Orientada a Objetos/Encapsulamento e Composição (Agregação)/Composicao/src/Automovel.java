@@ -26,11 +26,14 @@ public class Automovel {
     public Automovel(Motor motor, Direcao direcao) {
         this.motor = motor;
         this.direcao = direcao;
+    }
 
+    // Método para exibir resultados
+    public void exibirResultados() {
         System.out.println("Direção:");
         System.out.println("-Cor:" + direcao.getCor());
         System.out.println("-Tamanho do Raio:" + direcao.getTamanhoRaio());
-        
+
         System.out.println("\nMotor:");
         System.out.println("-Potência:" + motor.getPotencia());
         System.out.println("-Combustível:" + motor.getCombustivel());

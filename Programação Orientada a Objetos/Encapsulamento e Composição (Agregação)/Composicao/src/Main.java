@@ -7,7 +7,7 @@ public class Main {
         Direcao direcao01 = new Direcao("Azul", true);
 
         Automovel automovel01 = new Automovel(motor01, direcao01);
-        
-        
+
+        automovel01.exibirResultados();
     }
 }
